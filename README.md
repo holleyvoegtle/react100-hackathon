@@ -1,6 +1,6 @@
 # React Starter w/ Express Server, using Webpack
 
-This is a project template that can be used to quickly start a react project. It has minimal dependencies and has a server route that you can use to proxy requests without exposing your api keys.
+The purpose of this project was to create our own app in React. There was a project template that was used to as a bolierplate. It had minimal dependencies and had a server route that you can use to proxy requests without exposing your api keys. But for this particular app, a public API was found. The initial directions are as followed:
 
 ## Getting Started
 
@@ -19,13 +19,5 @@ Start the server
 $ npm run start
 ```
 
-## Use case
-
-When you create a request to a third party API from the server side (to protect your API key/credentials) you should create a `.env` file with your key.
-
-This will ensure that your private credentials do not get committed to git and will not be exposed to others on Github.
-
-You will also need to modify the `server/server.js` file to make your call to your api url and return back your data to your front end.
-
-An example of a request to a mock server is shown in the file. You will replace this with the API you want data from.
+From there, code was created to create a Dad Joke generator. Once completed, the app was pushed to [Heroku](https://hvdadapp.herokuapp.com/)
 
