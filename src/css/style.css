@@ -1,0 +1,85 @@
+@import url("https://fonts.googleapis.com/css?family=Work+Sans:400,600");
+
+body,
+html {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+    font-size: 16px;
+    font-family: "Work Sans", sans-serif;
+    font-weight: 400;
+    line-height: 1.4; 
+
+    background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+	background-size: 400% 400%;
+	animation: gradient 15s ease infinite;
+	height: 100vh;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+  
+  
+  
+  
+ /* color: #212121; */
+  
+}
+
+.container {
+  padding: 3em;
+  margin: 0 auto;
+  max-width: 32em;
+  text-align: center;
+}
+
+.container input[type="text"] {
+  display: inline-block;
+  margin-right: 1em;
+  padding: 1.25em 1.25em;
+  border-radius: 4px;
+  border: 3px solid #212121;
+  outline: none;
+}
+
+.container button {
+  cursor: pointer;
+  display: inline-block;
+  background: none;
+  font-size: 1.15rem;
+  font-weight: 600;
+  margin: 1.5em 0;
+  padding: 0.75em 1.25em;
+  border-radius: 4px;
+  border: 3px solid #212121;
+  transition: 0.8s cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+.container button:hover {
+  background: #212121;
+  color: #fff;
+}
+
+.container button:focus {
+  outline: none;
+}
+
+.container h1 {
+  font-size: 2.5rem;
+  line-height: 1.2;
+  margin: 0;
+}
+
+.container p {
+  font-size: 1.25rem;
+}
